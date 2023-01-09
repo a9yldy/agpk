@@ -168,20 +168,13 @@ a:hover{
 }
 .txt_onas{
     font-family: Lexend Giga;
-    margin-top: 30px;
+/*    margin-top: 30px;*/
     font-size: 20px;
 }
 .negeb{
     font-family: Lexend Giga;
     margin-top: 65px;
     font-size: 40px;
-}
-.card1,
-.card2,
-.card3,
-.card4,
-.card5{
-    margin-top: 30px;
 }
 .card-img-top{
     display: flex;
@@ -230,7 +223,6 @@ a:hover{
     background-color: red;
     width: 50%;
     height: 735px;
-    margin-top: 20px;
     border-radius: 30px;
     -webkit-box-shadow: 15px 17px 19px 3px rgba(221, 36, 36, 0.31);
     -moz-box-shadow: 15px 17px 19px 3px rgba(221, 36, 36, 0.31);
@@ -351,7 +343,6 @@ a:hover{
     width: 50%;
     height: 735px;
     margin-left: 50px;
-    margin-top: 20px;
     border-radius: 30px;
     -webkit-box-shadow: 15px 17px 19px 3px rgba(221, 36, 36, 0.31);
     -moz-box-shadow: 15px 17px 19px 3px rgba(221, 36, 36, 0.31);
@@ -453,9 +444,85 @@ a:hover{
 }
 
 
-@media (max-width: 768px) {
-    main{
-        width: 100%;
-        max-width: 768px;
+@media (max-width: 1023px) {
+    .karta{
+        width: 400px;
+        height: 210px;
+    }
+    .a_tele{
+        width: 100px;
+        padding: 15px 50px;
     }
 }   
+
+@media (max-width: 768px) {
+    .karta{
+        width: 300px;
+        height: 150px;
+    }
+    .a_tele{
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width: 426px) {
+    .nav{
+        display: none;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+        width: 100px;
+        height: 85px;   
+    }
+    .footer{
+        display: block;
+    }
+    .footer-card_info{
+        width: 100%;
+    }
+    .karta{
+        width: 350px;
+        height: 200px;
+    }
+    .footer-card_form{
+        margin: 0;
+        width: 100%;
+        height: 650px;
+    }
+    .a_tele{
+        padding: 10px 30px;
+    }
+}
+
+@media (max-width: 376px) {
+    .karta{
+        width: 90%;
+        height: 200px;
+    }
+    .a_tele{
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .karta{
+        width: 90%;
+        height: 200px;
+    }
+    .bi-youtube, .bi-tiktok, .bi-facebook{
+        margin-left: 40px;
+    }
+    .footer-card_form{
+        height: 618px;
+    }
+    .que{
+        padding-top: 40px;
+    }
+    .admind{
+        margin-left: 4px;
+        margin-top: 8px;
+    }
+}
